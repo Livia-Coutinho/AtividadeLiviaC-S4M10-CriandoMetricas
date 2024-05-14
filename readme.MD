@@ -33,11 +33,17 @@ A atividade de programação da semana 4 do módulo 10, de introdução à colet
 - Para iniciar, vamos utilizar o comando `dotnet new console` para criar um novo aplicativo de console. Em seguida, adicionar a referência ao pacote NuGet `System.Diagnostics.DiagnosticSource` utilizando o comando `dotnet add package System.Diagnostics.DiagnosticSource`.
 
 
-### Passo 3: Adaptação do código
+### Step 3: Adaptação do código
 
 - Acessar o arquivo Program.cs e substituir todo o seu conteúdo pelo código disponibilizado no tutorial. </br>
     - Esse código é responsável por definir uma classe chamada Program e um método chamado Main. </br>
     - Dentro do método Main, são criados e utilizados diferentes instrumentos de métricas, como um contador.
+
+
+#### Step 4: Executando o aplicativo
+
+- Para colocar em funcionamento o aplicativo, utilizar o comando `dotnet run` na linha de comando. 
+    - Isso vai iniciar a execução do programa, simulando transações de uma loja e registrando medidas através dos instrumentos de métricas previamente criados.
 
 # Prints da realização da atividade
 
