@@ -28,6 +28,17 @@ A atividade de programação da semana 4 do módulo 10, de introdução à colet
 - Começar instalando o SDK do .NET Core 6 ou uma versão mais recente, caso ainda não o tenha feito. 
 - Certificar-se de ter acesso a uma linha de comando (CLI) para executar os comandos do .NET.
 
+### Step 2: Desenvolvimento do aplicativo de console
+
+- Para iniciar, vamos utilizar o comando `dotnet new console` para criar um novo aplicativo de console. Em seguida, adicionar a referência ao pacote NuGet `System.Diagnostics.DiagnosticSource` utilizando o comando `dotnet add package System.Diagnostics.DiagnosticSource`.
+
+
+### Passo 3: Adaptação do código
+
+- Acessar o arquivo Program.cs e substituir todo o seu conteúdo pelo código disponibilizado no tutorial. </br>
+    - Esse código é responsável por definir uma classe chamada Program e um método chamado Main. </br>
+    - Dentro do método Main, são criados e utilizados diferentes instrumentos de métricas, como um contador.
+
 # Prints da realização da atividade
 
 ####
