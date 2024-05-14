@@ -21,3 +21,6 @@ A tecnologia principal abordada nesta atividade, cujo tutorial etsá disponível
 
 A atividade de programação da semana 4 do módulo 10, de introdução à coleta de métricas em aplicações .NET, proporciona uma compreensão sobre o monitoramento e análise do desempenho de aplicativos usando a API de métricas fornecida pelo namespace `System.Diagnostics.Metrics`. Através da instrumentação de aplicativos, criação de métricas personalizadas e coleta de métricas, quem está desenvolvendo pode obter insights úteis sobre o comportamento de seus aplicativos e identificar áreas para melhorias de desempenho.
 
+# Prints da realização da atividade
+
+####
