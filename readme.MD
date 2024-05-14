@@ -14,3 +14,5 @@ A tecnologia principal abordada nesta atividade, cujo tutorial etsá disponível
 - **Métricas personalizadas:** além das métricas padrão fornecidas pela API, os devs também podem criar suas próprias métricas personalizadas para monitorar aspectos específicos de seus aplicativos. Isso é feito criando instâncias de `ObservableCounter` e `ObservableGauge` e registrando-as com um `Meter`.
 
 - **Coleta de métricas:** uma vez que as métricas estão instrumentadas em um aplicativo, elas precisam ser coletadas e processadas para análise. Isso é feito usando um `MetricCollector`, que pode ser configurado para registrar e verificar as medições de instrumentos específicos.
+
+- **Testes de métricas:** para garantir que as métricas estejam sendo coletadas e registradas de forma certa, é importante testá-las. Os testes de métricas podem ser realizados tanto com injeção de dependência quanto sem ela, e os resultados podem ser verificados usando um `MetricCollector`.
